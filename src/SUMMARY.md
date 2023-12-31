@@ -1,6 +1,5 @@
 # Summary
 
-- [Preface](./preface.md)
 - [Introduction](./introduction.md)
 - [Learning Resources](./learning_resources.md)
 - [Getting Started](./getting_started.md)
