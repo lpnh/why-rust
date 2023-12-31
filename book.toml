@@ -3,4 +3,4 @@ authors = ["lpnh"]
 language = "en"
 multilingual = false
 src = "src"
-title = "why_rust"
+title = "Why Rust ?"

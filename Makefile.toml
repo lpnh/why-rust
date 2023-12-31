@@ -1,0 +1,18 @@
+[tasks.clean-book]
+command = "mdbook"
+args = ["clean"]
+
+[tasks.build-book]
+command = "mdbook"
+args = ["build"]
+
+[tasks.run-dev]
+command = "mdbook"
+args = ["build", "--open"]
+
+[tasks.run-release]
+run_task = { name = ["clean-book", "build-book"] }
+
+[tasks.update-pages]
+command = "git"
+args = ["subtree", "push", "--prefix", "book", "origin", "gh-pages"]
