@@ -1,7 +1,7 @@
 # Why Rust ?
 
 This is my humble contribution to help spread the word about Rust.
-Made with [mdBook](https://github.com/rust-lang/mdBook) and ♥
+Crafted with [mdBook](https://github.com/rust-lang/mdBook) and :hearts:
 
 ## Setup
 
