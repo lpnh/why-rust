@@ -1,13 +1,14 @@
 # Empowerment
 
 If I had to summarize my entire experience with Rust so far in a single paragraph,
-I would probably end up borrowing the words of Nicholas Matsakis and Aaron Turon from the 
-[Foreword](https://doc.rust-lang.org/book/foreword.html) section of
-[The Book](https://doc.rust-lang.org/book/).
+I would probably end up borrowing the words of Nicholas Matsakis and Aaron Turon:
 
-> Rust programming language is fundamentally about empowerment: no matter what
+> [...] the Rust programming language is fundamentally about empowerment: no matter what
 kind of code you are writing now, Rust empowers you to reach farther, to program
 with confidence in a wider variety of domains than you did before.
+
+*The entire text can be found in the [Foreword](https://doc.rust-lang.org/book/foreword.html) section
+of [The Book](https://doc.rust-lang.org/book/).*
 
 Before discussing all the doors Rust can open,
 and all the never-before-imagined domains behind them,
