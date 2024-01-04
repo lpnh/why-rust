@@ -6,9 +6,12 @@ args = ["clean"]
 command = "mdbook"
 args = ["build"]
 
-[tasks.run-dev]
+[tasks.start-dev]
 command = "mdbook"
 args = ["build", "--open"]
+
+[tasks.run-dev]
+run_task = { name = ["clean-book", "start-dev"] }
 
 [tasks.run-release]
 run_task = { name = ["clean-book", "build-book"] }
