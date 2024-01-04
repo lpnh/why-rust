@@ -23,4 +23,4 @@ cargo install mdbook-catppuccin
 
 To add the Catppuccin themes all you have to do is to run `mdbook-catppuccin install` on the mdBook's root directory.
 
-Check [catppuccin repository](https://github.com/catppuccin/mdBook) for more information.
+Check [catppuccin mdBook repository](https://github.com/catppuccin/mdBook) for more information.
