@@ -2,6 +2,7 @@
 
 - [Introduction](./introduction.md)
 - [Empowerment](./empowerment.md)
+- [Community](./community.md)
 - [Learning Resources](./learning_resources.md)
 - [Getting Started](./getting_started.md)
 - [Documentation](./documentation.md)
