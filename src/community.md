@@ -1,7 +1,7 @@
 # Community
 
 In the previous section, I discussed how my experience with Rust
-can be summarized as *Empowerment*.
+can be summarized as [Empowerment](./empowerment.md).
 This is true, and I still think that it's a
 good starting point because it describes the potentials
 that are more closely related to Rust's aspects as a programming language.

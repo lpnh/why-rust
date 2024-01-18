@@ -1,6 +1,6 @@
-# Rustlings welcome message
+# Rustlings Welcome Message
 
-```
+```no_rust
 
        welcome to...
                  _   _ _
