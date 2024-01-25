@@ -90,7 +90,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="empowerment.html"><strong aria-hidden="true">2.</strong> Empowerment</a></li><li class="chapter-item expanded "><a href="community.html"><strong aria-hidden="true">3.</strong> Community</a></li><li class="chapter-item expanded "><a href="getting_started.html"><strong aria-hidden="true">4.</strong> Getting Started</a></li><li class="chapter-item expanded "><a href="tooling.html"><strong aria-hidden="true">5.</strong> Tooling</a></li><li class="chapter-item expanded "><a href="ecosystem.html"><strong aria-hidden="true">6.</strong> Ecosystem</a></li><li class="chapter-item expanded "><a href="documentation.html"><strong aria-hidden="true">7.</strong> Documentation</a></li><li class="chapter-item expanded "><a href="safety.html"><strong aria-hidden="true">8.</strong> Safety</a></li><li class="chapter-item expanded "><a href="performance.html"><strong aria-hidden="true">9.</strong> Performance</a></li><li class="chapter-item expanded "><a href="concurrency.html"><strong aria-hidden="true">10.</strong> Concurrency</a></li><li class="chapter-item expanded "><a href="real_world.html"><strong aria-hidden="true">11.</strong> Real-World</a></li><li class="chapter-item expanded "><a href="future_prospects.html"><strong aria-hidden="true">12.</strong> Future Prospects</a></li><li class="chapter-item expanded "><a href="appendix/index.html"><strong aria-hidden="true">13.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="appendix/ferris.html"><strong aria-hidden="true">13.1.</strong> Ferris</a></li><li class="chapter-item expanded "><a href="appendix/rustlings_welcome_message.html"><strong aria-hidden="true">13.2.</strong> Rustlings Welcome Message</a></li><li class="chapter-item expanded "><a href="appendix/sources_references.html"><strong aria-hidden="true">13.3.</strong> Sources and References</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="empowerment.html"><strong aria-hidden="true">2.</strong> Empowerment</a></li><li class="chapter-item expanded "><a href="community.html"><strong aria-hidden="true">3.</strong> Community</a></li><li class="chapter-item expanded "><a href="getting_started.html"><strong aria-hidden="true">4.</strong> Getting Started</a></li><li class="chapter-item expanded "><a href="tooling.html"><strong aria-hidden="true">5.</strong> Tooling</a></li><li class="chapter-item expanded "><a href="ecosystem.html"><strong aria-hidden="true">6.</strong> Ecosystem</a></li><li class="chapter-item expanded "><a href="documentation.html"><strong aria-hidden="true">7.</strong> Documentation</a></li><li class="chapter-item expanded "><a href="safety.html"><strong aria-hidden="true">8.</strong> Safety</a></li><li class="chapter-item expanded "><a href="performance.html"><strong aria-hidden="true">9.</strong> Performance</a></li><li class="chapter-item expanded "><a href="concurrency.html"><strong aria-hidden="true">10.</strong> Concurrency</a></li><li class="chapter-item expanded "><a href="stability.html"><strong aria-hidden="true">11.</strong> Stability</a></li><li class="chapter-item expanded "><a href="real_world.html"><strong aria-hidden="true">12.</strong> Real-World</a></li><li class="chapter-item expanded "><a href="contribution.html"><strong aria-hidden="true">13.</strong> Contribution</a></li><li class="chapter-item expanded "><a href="future_prospects.html"><strong aria-hidden="true">14.</strong> Future Prospects</a></li><li class="chapter-item expanded "><a href="appendix/index.html"><strong aria-hidden="true">15.</strong> Appendix</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="appendix/ferris.html"><strong aria-hidden="true">15.1.</strong> Ferris</a></li><li class="chapter-item expanded "><a href="appendix/rustlings_welcome_message.html"><strong aria-hidden="true">15.2.</strong> Rustlings Welcome Message</a></li><li class="chapter-item expanded "><a href="appendix/sources_references.html"><strong aria-hidden="true">15.3.</strong> Sources and References</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -252,6 +252,30 @@ to talk about this <a href="images/celebration.jpg">vibrant</a> and welcoming co
 introduces three different options for getting started with Rust.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="tooling"><a class="header" href="#tooling">Tooling</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ecosystem"><a class="header" href="#ecosystem">Ecosystem</a></h1>
+<p>One thing that new Rust developers will face sooner rather than later is
+the absence of some common utilities typically found in other languages'
+standard libraries. There are [very good reasons]
+(https://internals.rust-lang.org/t/what-should-go-into-the-standard-library/2158)
+fore Rust to be this way. This &quot;batteries included&quot; approach, although seemingly
+ergonomic at first glance, can have some
+<a href="https://lwn.net/Articles/790677/">downsides</a> in the long run.</p>
+<p>The fact is, the lean std library is supported by a rich ecosystem that can be
+easily accessed and incorporated with <em>Cargo</em>. This shifts the problem from &quot;why
+isn't <em>x</em> available&quot; to &quot;which of all these <em>x</em> options should I choose?!&quot;.</p>
+<p>This was a real challenge for me in the beginning. I spent a considerable amount
+of time searching and comparing. To be honest, I think this additional step,
+where we are expected to pick and choose our own tools, contributed
+significantly to my learning journey and personal development. I see it as an
+opportunity to discover more about the ecosystem and to delve deeper into the
+tools we use.</p>
+<p>However, the goal here is to make things easier for you. So, I will share two
+unofficial &quot;curators&quot; that have explored the vast sea of &lt;crates.io&gt; and offer
+us some good starting points.</p>
+<p>The first one, and perhaps the more beginner-friendly, is the <a href="https://blessed.rs/crates">Blessed
+guide</a>.</p>
+<p>The second, which lacks the &quot;handmade&quot; aspect but offers far more options and
+criteria, is <a href="https://lib.rs/">Lib.rs</a>.</p>
+<p>Enjoy!</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="documentation"><a class="header" href="#documentation">Documentation</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="safety"><a class="header" href="#safety">Safety</a></h1>
 <p>At a certain point, we as humankind simply start accepting that things could
@@ -259,8 +283,14 @@ stop working for no apparent reason.</p>
 <p>&quot;That's just the way things are; for some
 obscure reason, they can behave in the most random manner&quot;.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="performance"><a class="header" href="#performance">Performance</a></h1>
+<p><img src="images/blazingly-fast.jpg" alt="blazingly-fast" /></p>
+<p>At this point, it seems that everybody already knows that Rust automatically
+turns any regular project into a <em>blazingly-fast</em> one.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="concurrency"><a class="header" href="#concurrency">Concurrency</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="stability"><a class="header" href="#stability">Stability</a></h1>
+<p><a href="https://blog.rust-lang.org/2014/10/30/Stability.html">https://blog.rust-lang.org/2014/10/30/Stability.html</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="real-world"><a class="header" href="#real-world">Real-World</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contribution"><a class="header" href="#contribution">Contribution</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="future-prospects"><a class="header" href="#future-prospects">Future Prospects</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="appendix"><a class="header" href="#appendix">Appendix</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="ferris"><a class="header" href="#ferris">Ferris</a></h1>
@@ -313,6 +343,8 @@ exercise. Make sure to have your editor open!
 <p>Some sources and references, organized by section.</p>
 <h2 id="community-1"><a class="header" href="#community-1">Community</a></h2>
 <p>Meme: <a href="https://dev.to/ben/meme-monday-5h2e#comment-24e9k">https://dev.to/ben/meme-monday-5h2e#comment-24e9k</a></p>
+<h2 id="performance-1"><a class="header" href="#performance-1">Performance</a></h2>
+<p>Meme: <a href="https://www.reddit.com/r/rustjerk/comments/sqy221/anything_built_in_rust_is_blazingly_fast_by/">https://www.reddit.com/r/rustjerk/comments/sqy221/anything_built_in_rust_is_blazingly_fast_by/</a></p>
 
                     </main>
 
