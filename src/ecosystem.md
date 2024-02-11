@@ -2,8 +2,8 @@
 
 One thing that new Rust developers will face sooner rather than later is
 the absence of some common utilities typically found in other languages'
-standard libraries. There are [very good reasons]
-(https://internals.rust-lang.org/t/what-should-go-into-the-standard-library/2158)
+standard libraries. There are [very good
+reasons](https://internals.rust-lang.org/t/what-should-go-into-the-standard-library/2158)
 fore Rust to be this way. This "batteries included" approach, although seemingly
 ergonomic at first glance, can have some
 [downsides](https://lwn.net/Articles/790677/) in the long run.
