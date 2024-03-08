@@ -20,8 +20,8 @@ opportunity to discover more about the ecosystem and to delve deeper into the
 tools we use.
 
 However, the goal here is to make things easier for you. So, I will share two
-unofficial "curators" that have explored the vast sea of <crates.io> and offer
-us some good starting points.
+unofficial "curators" that have explored the vast sea of
+[crates](https://crates.io) and now are offering us some good starting points.
 
 The first one, and perhaps the more beginner-friendly, is the [Blessed
 guide](https://blessed.rs/crates).

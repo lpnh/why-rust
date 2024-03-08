@@ -26,9 +26,10 @@ into a badass fireball-throwing Mario.
 
 For me, what makes Rust special is not just the "superpowers" it provides. It's
 the confidence that comes with it. The certainty of delivering more reliable
-code right out of the box, and sometimes even receiving a performance improvement as a
-bonus. This is an experience that changes how you feel about your own code and 
-about your capabilities. This is, for me, what empowerment is about.
+code right out of the box, and sometimes even receiving a [performance
+improvement](https://www.reddit.com/r/rustjerk/comments/sqy221/anything_built_in_rust_is_blazingly_fast_by/)
+as a bonus. This is an experience that changes how you feel about your own code
+and about your capabilities. This is, for me, what empowerment is about.
 
 The freedom that comes when the self-imposed barriers start to be demolished.
 The fearless environment where major mistakes can be
