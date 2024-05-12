@@ -3,18 +3,17 @@ command = "mdbook"
 args = ["clean"]
 
 [tasks.build-book]
+dependencies = ["clean-book"]
 command = "mdbook"
 args = ["build"]
 
-[tasks.start-dev]
-command = "mdbook"
-args = ["build", "--open"]
-
 [tasks.run-dev]
-run_task = { name = ["clean-book", "start-dev"] }
+dependencies = ["build-book"]
+command = "mdbook"
+args = ["serve", "--open"]
 
 [tasks.run-release]
-run_task = { name = ["clean-book", "build-book"] }
+dependencies = ["build-book"]
 
 [tasks.update-pages]
 command = "git"
