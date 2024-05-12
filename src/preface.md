@@ -1,7 +1,7 @@
 # Preface
 
-Hello, friend! Right from the start, I want to clarify that as a little
-Rustacean I won't delve deeply into explaining Rust's arcane secrets. This
+Hello, friend! Right from the start, I want to acknowledge that as a little
+Rustacean I won't delve deeply into Rust's arcane secrets. This
 [mdBook](https://rust-lang.github.io/mdBook/) is merely an excuse for me to
 share my enthusiasm and some thoughts from my journey so far.
 
