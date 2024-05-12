@@ -1,6 +1,6 @@
 # Why Rust ?
 
-This is my humble contribution to help spread the word about Rust.
+An excuse for me to share my enthusiasm and some thoughts from my journey so far.  
 Crafted with [mdBook](https://github.com/rust-lang/mdBook) and :hearts:
 
 ## Setup
