@@ -1,6 +1,7 @@
 # Summary
 
-- [Introduction](./introduction.md)
+- [Preface](./preface.md)
+- [Prologue](./prologue.md)
 - [Empowerment](./empowerment.md)
 - [Community](./community.md)
 - [Getting Started](./getting_started.md)
@@ -8,7 +9,9 @@
 - [Ecosystem](./ecosystem.md)
 - [Documentation](./documentation.md)
 - [Stability](./stability.md)
-- [Real-World](./real_world.md)
+- [Refresh](./refresh.md)
 - [Contribution](./contribution.md)
+- [Real-World](./real_world.md)
 - [Future](./future.md)
-- [Ferris](./appendix/ferris.md)
+- [Appendix](./appendix/README.md)
+  - [Ferris](./appendix/ferris.md)

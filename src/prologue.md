@@ -1,4 +1,4 @@
-# Philosopher's Stone
+# Prologue
 
 If there's one lesson that ~Fullmetal Alchemist~ Lavoisier teaches us, it's
 that "Nothing is lost, nothing is created, everything is transformed." Or words
@@ -9,7 +9,7 @@ In programming, this concept is given the fancy name of 'trade-off', which
 basically means the same thing: In life, we can't have everything. At least,
 not at the same time nor out of nowhere. True in Lavoisier’s time, this remains
 so today. But, holy moly, sometimes our expectations for what we deserve in
-life are surprisingly low. 
+life are surprisingly low.
 
 Where I come from, the first thing any technical support will ask you is if you
 already tried to turn it off and on again. This *maneuver* is treated as
@@ -26,9 +26,9 @@ on again. And do you know what the most annoying aspect of it is? It works.
 This is why it became universal knowledge. It works every single time.
 
 And so, we, as humankind, simply start accepting that things can stop working
-for no apparent reason. And when this happens, the only reasonable way to solve
-it is by turning them off and then on again. "That's just the way things are;
-for some obscure reason, they can behave in the most random manner."
+for no apparent reason. And when this happens, the most reasonable approach to
+solve it is by turning them off and then on again. "That's just the way things
+are."
 
 It doesn't matter how much knowledge we have acquired in life, or how smart or
 how creative we are. When something stops working unexpectedly, or even worse,
@@ -37,8 +37,7 @@ than later end up just accepting it. At some point, everyone will just give up.
 And even if one really cares, one will rapidly forget about it: there are
 things more urgent to occupy us in our modern life.
 
-However, for some of us, the problem is much closer to home - as close as the
-next door, or the elevator, I should say.
-
-https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/
-
+However, for some of us, the problem is too close to home to simply ignore - as
+close as the next door, or the
+[elevator](https://www.technologyreview.com/2023/02/14/1067869/rust-worlds-fastest-growing-programming-language/),
+I should say.
